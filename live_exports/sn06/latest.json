@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "sn06",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 1060.23,
+    "stop": 1041.0,
+    "tp1": 1050,
+    "tp2": 1066,
+    "tp3": 1082,
+    "timestamp": "2025-06-26T22:46:45.882531"
+  }
+]

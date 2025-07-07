@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "illusion",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 1010.23,
+    "stop": 998.5,
+    "tp1": 1025,
+    "tp2": 1036,
+    "tp3": 1047,
+    "timestamp": "2025-06-26T22:46:45.882486"
+  }
+]

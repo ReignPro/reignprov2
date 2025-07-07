@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "sheikh",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 1050.23,
+    "stop": 1032.5,
+    "tp1": 1045,
+    "tp2": 1060,
+    "tp3": 1075,
+    "timestamp": "2025-06-26T22:46:45.882521"
+  }
+]

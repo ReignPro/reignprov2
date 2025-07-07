@@ -1,0 +1,5 @@
+blofin-sdk-python      # official SDK (wraps REST & WS)  :contentReference[oaicite:0]{index=0}
+watchdog               # folder event listener
+pandas                 # lightweight log export
+python-dotenv          # optional .env loading
+requests

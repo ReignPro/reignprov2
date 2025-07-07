@@ -1,0 +1,31 @@
+{
+    "default_balance": 10000,
+    "default_leverage": 20,
+    "max_daily_risk_percent": 10,
+    "traders": {
+        "fatty": {
+            "risk_percent": 4.0
+        },
+        "illusion": {
+            "risk_percent": 3.0
+        },
+        "khalil": {
+            "risk_percent": 2.5
+        },
+        "tyler": {
+            "risk_percent": 2.0
+        },
+        "sheikh": {
+            "risk_percent": 2.0
+        },
+        "sn06": {
+            "risk_percent": 2.0
+        },
+        "xvek": {
+            "risk_percent": 2.0
+        },
+        "jotham": {
+            "risk_percent": 2.5
+        }
+    }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "xvek",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 1070.23,
+    "stop": 1049.5,
+    "tp1": 1055,
+    "tp2": 1072,
+    "tp3": 1089,
+    "timestamp": "2025-06-26T22:46:45.882542"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "tyler",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 1020.23,
+    "stop": 1007.0,
+    "tp1": 1030,
+    "tp2": 1042,
+    "tp3": 1054,
+    "timestamp": "2025-06-26T22:46:45.882495"
+  }
+]

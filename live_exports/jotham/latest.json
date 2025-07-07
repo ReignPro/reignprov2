@@ -1,0 +1,13 @@
+[
+  {
+    "trader": "jotham",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 1040.23,
+    "stop": 1024.0,
+    "tp1": 1040,
+    "tp2": 1054,
+    "tp3": 1068,
+    "timestamp": "2025-06-26T22:46:45.882512"
+  }
+]

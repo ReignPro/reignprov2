@@ -1,0 +1,35 @@
+# config.yaml  – editable in any text editor
+mode: demo                # demo | live
+export_dir: "C:/Users/USA/ReignPro/exports"
+db_path: "./bot_state.sqlite"
+db_path:   ./state.db
+
+mode: demo            # demo | live
+risk_pct: 1.0         # % of account per trade
+export_dir: ./live_exports
+db_path:   ./state.db
+
+# ReignPro Configuration
+mode: live
+
+export_directory: live_exports
+
+daily_loss_limit: 0.15
+
+traders:
+  fatty:
+    risk: 0.04
+  illusion:
+    risk: 0.03
+  jotham:
+    risk: 0.025
+  khalil:
+    risk: 0.025
+  ty:
+    risk: 0.02
+  sn06:
+    risk: 0.02
+  xvek:
+    risk: 0.02
+  unknown:
+    risk: 0.01

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trade Parser Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <h1>Parsed Trades Dashboard</h1>
+
+    <table id="trades" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Trader</th>
+                <th>Symbol</th>
+                <th>Side</th>
+                <th>Entry</th>
+                <th>TP</th>
+                <th>SL</th>
+                <th>Chart</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+    $(document).ready(function() {
+        $('#trades').DataTable({
+            ajax: "/api/trades",
+            serverSide: false,
+            processing: true,
+            columns: [
+                { data: "Trader" },
+                { data: "symbol" },
+                { data: "side" },
+                { data: "entry" },
+                { 
+                  data: "tp",
+                  render: function(data) {
+                    return Array.isArray(data) ? data.join(", ") : data;
+                  }
+                },
+                { data: "sl" },
+                { 
+                  data: "chart",
+                  render: function(data) {
+                    if(data) {
+                        return `<a href="${data}" target="_blank">View Chart</a>`;
+                    }
+                    return "";
+                  }
+                }
+            ],
+            pageLength: 25
+        });
+    });
+    </script>
+</body>
+</html>
