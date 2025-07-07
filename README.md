@@ -1,4 +1,4 @@
-# ReignProBot v1
+# ReignProBot v2
 
 Discord-based automated trading bot that:
 - Parses trade signals from multiple traders
